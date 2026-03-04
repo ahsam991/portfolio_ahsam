@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Ahsamul Haque | Database Engineer & Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- ═══════════════ NAV ═══════════════ -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="nav-logo">&lt;Ahsamul.dev /&gt;</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Open to new opportunities
+                </div>
+                <h1 class="hero-name">
+                    <span class="name-line1">Md Ahsamul</span>
+                    <span class="name-line2">Haque</span>
+                </h1>
+                <div class="hero-role">
+                    <span id="typed-text"></span><span class="typed-cursor"></span>
+                </div>
+                <p class="hero-desc">
+                    Computer Science & Engineering student with hands-on industry experience as a
+                    <strong>Database Engineer Intern at V2 Technologies Ltd.</strong>
+                    Building data-driven, intelligent systems with a passion for clean architecture and scalable solutions.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-gold"><i class="fas fa-code"></i> View My Work</a>
+                    <a href="#contact" class="btn-outline"><i class="fas fa-paper-plane"></i> Get in Touch</a>
+                    <a href="https://github.com/ahsam991" target="_blank" rel="noopener" class="btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-num" data-target="3.72" data-decimal="2">0</span>
+                        <span class="stat-label">CGPA</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num" data-target="5" data-suffix="+">0</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num" data-target="2">0</span>
+                        <span class="stat-label">Internships</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num" data-target="3" data-suffix="yr">0</span>
+                        <span class="stat-label">Research</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="avatar-wrap">
+                    <div class="orbit-ring ring-1"></div>
+                    <div class="orbit-ring ring-2"></div>
+                    <div class="avatar-inner">
+                        <img src="assets/profile.jpg" alt="Md Ahsamul Haque" class="profile-img">
+                    </div>
+                    <span class="orb-dot dot-gold"></span>
+                    <span class="orb-dot dot-purple"></span>
+                    <div class="float-card fc1"><i class="fas fa-database"></i>MySQL &amp; PostgreSQL</div>
+                    <div class="float-card fc2"><i class="fas fa-code"></i>Full-Stack Dev</div>
+                    <div class="float-card fc3"><i class="fas fa-brain"></i>Machine Learning</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ═══════════════ ABOUT ═══════════════ -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="sec-head reveal">
+                <span class="sec-tag">// who i am</span>
+                <h2 class="sec-title">About <em>Me</em></h2>
+                <div class="gold-line"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text reveal-left">
+                    <p>I'm a Computer Science & Engineering student at <strong>American International University-Bangladesh (AIUB)</strong>, currently working as a <strong>Database Engineer Intern at V2 Technologies Ltd</strong> with a CGPA of 3.72/4.00.</p>
+                    <p>My journey spans database engineering, software quality assurance, and full-stack development — giving me a comprehensive perspective on the entire software development lifecycle. I love building scalable, data-driven solutions that make a real impact.</p>
+                    <p>With 2+ years of research experience at AIUB's R&D Club and proficiency across SQL, Python, Java, C#, and modern web technologies, I bring both theoretical depth and hands-on expertise to every challenge.</p>
+
+                    <div class="about-info-grid">
+                        <div class="ainfo-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="ainfo-label">Location</span>
+                                <span class="ainfo-val">Dhaka, Bangladesh</span>
+                            </div>
+                        </div>
+                        <div class="ainfo-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="ainfo-label">Email</span>
+                                <span class="ainfo-val small">ahsamulhaque.aiub@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="ainfo-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <span class="ainfo-label">Degree</span>
+                                <span class="ainfo-val">BSc CSE — 2026</span>
+                            </div>
+                        </div>
+                        <div class="ainfo-item">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <span class="ainfo-label">Languages</span>
+                                <span class="ainfo-val">Bengali, English</span>
+                            </div>
+                        </div>
+                        <div class="ainfo-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span class="ainfo-label">Phone</span>
+                                <span class="ainfo-val">+880 1629 679991</span>
+                            </div>
+                        </div>
+                        <div class="ainfo-item">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <span class="ainfo-label">Interests</span>
+                                <span class="ainfo-val">AI, ML, Photography</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-cards reveal-right">
+                    <div class="pcard">
+                        <div class="pcard-head">
+                            <div class="pcard-icon"><i class="fas fa-database"></i></div>
+                            <h4>Database Engineering</h4>
+                        </div>
+                        <p>Designing and optimizing relational databases with MySQL & PostgreSQL. Expert in stored procedures, triggers, indexing strategies, and production-grade performance tuning.</p>
+                    </div>
+                    <div class="pcard">
+                        <div class="pcard-head">
+                            <div class="pcard-icon"><i class="fas fa-layer-group"></i></div>
+                            <h4>Full-Stack Development</h4>
+                        </div>
+                        <p>Building end-to-end web applications using HTML, CSS, JavaScript, PHP, and Java. Solid foundation in software architecture, SDLC practices, and robust user-facing products.</p>
+                    </div>
+                    <div class="pcard">
+                        <div class="pcard-head">
+                            <div class="pcard-icon"><i class="fas fa-brain"></i></div>
+                            <h4>ML & Data Analytics</h4>
+                        </div>
+                        <p>Applying machine learning to real-world problems — from textile defect detection to data-driven decision making. Active researcher with 2 years at AIUB R&D Club.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ SKILLS ═══════════════ -->
+    <section id="skills" class="section section-dark">
+        <div class="container">
+            <div class="sec-head reveal">
+                <span class="sec-tag">// what i work with</span>
+                <h2 class="sec-title">Technical <em>Skills</em></h2>
+                <div class="gold-line"></div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="scat reveal">
+                    <div class="scat-top">
+                        <div class="scat-icon gi-db"><i class="fas fa-database"></i></div>
+                        <div>
+                            <div class="scat-name">Database &amp; SQL</div>
+                            <div class="scat-sub">Core expertise</div>
+                        </div>
+                    </div>
+                    <div class="stags">
+                        <span>SQL</span><span>MySQL</span><span>PostgreSQL</span><span>Oracle</span>
+                        <span>Database Design</span><span>Performance Tuning</span>
+                        <span>Stored Procedures</span><span>Triggers</span>
+                        <span>Indexing</span><span>ER Diagrams</span>
+                    </div>
+                </div>
+
+                <div class="scat reveal">
+                    <div class="scat-top">
+                        <div class="scat-icon gi-code"><i class="fas fa-code"></i></div>
+                        <div>
+                            <div class="scat-name">Programming Languages</div>
+                            <div class="scat-sub">Multi-paradigm</div>
+                        </div>
+                    </div>
+                    <div class="stags">
+                        <span>Python</span><span>Java</span><span>C#</span>
+                        <span>C++</span><span>JavaScript</span><span>PHP</span><span>MATLAB</span>
+                    </div>
+                </div>
+
+                <div class="scat reveal">
+                    <div class="scat-top">
+                        <div class="scat-icon gi-web"><i class="fas fa-globe"></i></div>
+                        <div>
+                            <div class="scat-name">Web Development</div>
+                            <div class="scat-sub">Full-stack</div>
+                        </div>
+                    </div>
+                    <div class="stags">
+                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                        <span>PHP</span><span>.NET / C#</span><span>WordPress</span>
+                        <span>Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="scat reveal">
+                    <div class="scat-top">
+                        <div class="scat-icon gi-tools"><i class="fas fa-tools"></i></div>
+                        <div>
+                            <div class="scat-name">Tools &amp; Platforms</div>
+                            <div class="scat-sub">Dev ecosystem</div>
+                        </div>
+                    </div>
+                    <div class="stags">
+                        <span>Git</span><span>GitHub</span><span>Figma</span>
+                        <span>OpenGL</span><span>CCNA</span><span>MS Office 365</span>
+                        <span>Cisco Packet Tracer</span>
+                    </div>
+                </div>
+
+                <div class="scat reveal">
+                    <div class="scat-top">
+                        <div class="scat-icon gi-ml"><i class="fas fa-brain"></i></div>
+                        <div>
+                            <div class="scat-name">ML &amp; Analytics</div>
+                            <div class="scat-sub">Data-driven</div>
+                        </div>
+                    </div>
+                    <div class="stags">
+                        <span>Machine Learning</span><span>Data Analytics</span>
+                        <span>Research Methods</span><span>Prototyping</span>
+                    </div>
+                </div>
+
+                <div class="scat reveal">
+                    <div class="scat-top">
+                        <div class="scat-icon gi-soft"><i class="fas fa-star"></i></div>
+                        <div>
+                            <div class="scat-name">Core Competencies</div>
+                            <div class="scat-sub">Professional</div>
+                        </div>
+                    </div>
+                    <div class="stags">
+                        <span>Problem Solving</span><span>SQA &amp; Testing</span>
+                        <span>Documentation</span><span>Critical Thinking</span>
+                        <span>Team Collaboration</span><span>Time Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ EXPERIENCE ═══════════════ -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="sec-head reveal">
+                <span class="sec-tag">// where i've worked</span>
+                <h2 class="sec-title">Work <em>Experience</em></h2>
+                <div class="gold-line"></div>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item reveal">
+                    <div class="tl-dot"><i class="fas fa-database"></i></div>
+                    <div class="tl-body">
+                        <div class="tl-meta">
+                            <span class="tl-role">Database Engineer Intern</span>
+                            <span class="tl-date">Feb 2026 – Present</span>
+                        </div>
+                        <div class="tl-company">V2 Technologies Ltd · Full-time</div>
+                        <div class="tl-location"><i class="fas fa-map-marker-alt"></i> Mohakhali DOHS, Dhaka (On-site)</div>
+                        <span class="tl-badge badge-current">🟢 Current Role</span>
+
+                        <div class="tl-section">
+                            <h5>Key Achievements</h5>
+                            <ul class="tl-list">
+                                <li>Designed and optimized relational database schemas, improving query performance and data retrieval efficiency.</li>
+                                <li>Contributed to database migration and integration tasks ensuring zero data loss and minimal system downtime.</li>
+                                <li>Developed stored procedures and triggers that significantly reduced manual data processing workload.</li>
+                            </ul>
+                        </div>
+                        <div class="tl-section">
+                            <h5>Responsibilities</h5>
+                            <ul class="tl-list">
+                                <li>Designed, maintained, and optimized relational databases using MySQL and PostgreSQL.</li>
+                                <li>Wrote complex SQL queries, stored procedures, views, and triggers for application and reporting needs.</li>
+                                <li>Collaborated with backend developers to seamlessly integrate database layers with application logic.</li>
+                                <li>Monitored database performance, identified bottlenecks, and implemented indexing strategies.</li>
+                                <li>Assisted in database backup, recovery planning, and architecture documentation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="tl-dot"><i class="fas fa-bug"></i></div>
+                    <div class="tl-body">
+                        <div class="tl-meta">
+                            <span class="tl-role">SQA Intern</span>
+                            <span class="tl-date">Jul 2025 – Oct 2025</span>
+                        </div>
+                        <div class="tl-company">V2 Technologies Ltd · Internship</div>
+                        <div class="tl-location"><i class="fas fa-map-marker-alt"></i> Mohakhali DOHS, Dhaka (On-site)</div>
+                        <span class="tl-badge badge-past">Completed</span>
+
+                        <div class="tl-section">
+                            <h5>Key Achievements</h5>
+                            <ul class="tl-list">
+                                <li>Identified and resolved critical software defects across multiple modules, improving overall product stability.</li>
+                                <li>Developed and executed structured test plans with cross-functional teams, enhancing product quality.</li>
+                                <li>Gained hands-on experience with automation tools and testing frameworks for efficient bug tracking.</li>
+                            </ul>
+                        </div>
+                        <div class="tl-section">
+                            <h5>Responsibilities</h5>
+                            <ul class="tl-list">
+                                <li>Identified and documented software defects through structured bug tracking systems.</li>
+                                <li>Participated in code reviews and assisted in refining SDLC practices.</li>
+                                <li>Executed regression, functional, and integration testing on web-based applications.</li>
+                                <li>Prepared detailed quality assurance reports and test case documentation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="tl-dot"><i class="fas fa-flask"></i></div>
+                    <div class="tl-body">
+                        <div class="tl-meta">
+                            <span class="tl-role">Researcher</span>
+                            <span class="tl-date">2023 – 2025</span>
+                        </div>
+                        <div class="tl-company">AIUB Research and Development Club</div>
+                        <div class="tl-location"><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</div>
+                        <span class="tl-badge badge-past">Completed</span>
+
+                        <div class="tl-section">
+                            <h5>Key Achievements</h5>
+                            <ul class="tl-list">
+                                <li>Conducted research and developed prototypes for innovative technology solutions.</li>
+                                <li>Collaborated on projects integrating machine learning and data-driven approaches.</li>
+                                <li>Gained hands-on experience in problem-solving and modern research methodologies.</li>
+                            </ul>
+                        </div>
+                        <div class="tl-section">
+                            <h5>Responsibilities</h5>
+                            <ul class="tl-list">
+                                <li>Designed and implemented research-based prototypes and proof-of-concept models.</li>
+                                <li>Documented findings and presented outcomes to faculty advisors.</li>
+                                <li>Assisted senior researchers in data collection, analysis, and report preparation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="tl-dot"><i class="fas fa-laptop-code"></i></div>
+                    <div class="tl-body">
+                        <div class="tl-meta">
+                            <span class="tl-role">General Member</span>
+                            <span class="tl-date">2023 – 2025</span>
+                        </div>
+                        <div class="tl-company">AIUB Computer Club</div>
+                        <div class="tl-location"><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</div>
+                        <span class="tl-badge badge-past">Completed</span>
+
+                        <div class="tl-section">
+                            <h5>Contributions</h5>
+                            <ul class="tl-list">
+                                <li>Participated in workshops and innovation initiatives to develop new ideas and solutions.</li>
+                                <li>Collaborated with peers to enhance technical skills and share knowledge in computer science.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ PROJECTS ═══════════════ -->
+    <section id="projects" class="section section-dark">
+        <div class="container">
+            <div class="sec-head reveal">
+                <span class="sec-tag">// what i've built</span>
+                <h2 class="sec-title">Featured <em>Projects</em></h2>
+                <div class="gold-line"></div>
+            </div>
+
+            <div class="projects-grid">
+
+                <div class="project-card reveal">
+                    <span class="proj-num">PROJECT 01</span>
+                    <div class="proj-icon" style="background:linear-gradient(135deg,rgba(245,200,66,.18),rgba(155,93,229,.1))">
+                        <i class="fas fa-hospital" style="color:#f5c842"></i>
+                    </div>
+                    <h3 class="proj-title">Full-Stack Hospital Management Solution</h3>
+                    <span class="proj-year">2025</span>
+                    <p class="proj-desc">Responsive web application for hospital service automation enabling appointment booking, secure profile management, and role-based dashboards. Reduced patient wait times by 30% and paperwork by 75%.</p>
+                    <div class="proj-techs">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <span class="proj-num">PROJECT 02</span>
+                    <div class="proj-icon" style="background:linear-gradient(135deg,rgba(93,255,138,.12),rgba(245,200,66,.1))">
+                        <i class="fas fa-recycle" style="color:#5dff8a"></i>
+                    </div>
+                    <h3 class="proj-title">Garments Waste Detector &amp; Management System</h3>
+                    <span class="proj-year">2024</span>
+                    <p class="proj-desc">ML-powered solution to detect textile defects, optimize fabric usage, and categorize reusable waste. Promotes sustainable fashion by minimizing material loss in eco-friendly production.</p>
+                    <div class="proj-techs">
+                        <span>Machine Learning</span><span>Sensors</span><span>Analytics</span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <span class="proj-num">PROJECT 03</span>
+                    <div class="proj-icon" style="background:linear-gradient(135deg,rgba(184,127,255,.2),rgba(245,200,66,.08))">
+                        <i class="fas fa-question-circle" style="color:#b87fff"></i>
+                    </div>
+                    <h3 class="proj-title">Quiz Peak — Interactive Learning Platform</h3>
+                    <span class="proj-year">2024</span>
+                    <p class="proj-desc">Interactive quiz platform enhancing digital learning and online assessment. Secure environment for students to take assessments and teachers to manage questions and results.</p>
+                    <div class="proj-techs">
+                        <span>C#</span><span>.NET Framework</span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <span class="proj-num">PROJECT 04</span>
+                    <div class="proj-icon" style="background:linear-gradient(135deg,rgba(255,180,60,.15),rgba(245,200,66,.1))">
+                        <i class="fas fa-sitemap" style="color:#ffb43c"></i>
+                    </div>
+                    <h3 class="proj-title">Hospital Management System — Database</h3>
+                    <span class="proj-year">2023</span>
+                    <p class="proj-desc">Normalized relational database for hospital operations using ER diagrams and SQL. Improved data integrity and streamlined workflows for efficient and reliable data retrieval.</p>
+                    <div class="proj-techs">
+                        <span>PostgreSQL</span><span>SQL</span><span>ER Diagrams</span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <span class="proj-num">PROJECT 05</span>
+                    <div class="proj-icon" style="background:linear-gradient(135deg,rgba(245,200,66,.1),rgba(155,93,229,.15))">
+                        <i class="fas fa-notes-medical" style="color:#f5c842"></i>
+                    </div>
+                    <h3 class="proj-title">Hospital Management System — Java</h3>
+                    <span class="proj-year">2022</span>
+                    <p class="proj-desc">Comprehensive hospital management software in Java focused on patient registration and appointment scheduling. Enhanced operational efficiency and data accuracy in healthcare delivery.</p>
+                    <div class="proj-techs">
+                        <span>Java</span><span>OOP</span>
+                    </div>
+                </div>
+
+                <div class="project-card project-github reveal">
+                    <i class="fab fa-github github-big"></i>
+                    <h3 class="proj-title" style="color:var(--text-secondary)">More on GitHub</h3>
+                    <p class="proj-desc">Explore more projects, experiments, and open-source contributions on my GitHub profile.</p>
+                    <a href="https://github.com/ahsam991" target="_blank" rel="noopener" class="btn-outline btn-sm">
+                        <i class="fab fa-github"></i> ahsam991
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ CONTACT ═══════════════ -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="sec-head reveal">
+                <span class="sec-tag">// let's connect</span>
+                <h2 class="sec-title">Get In <em>Touch</em></h2>
+                <div class="gold-line"></div>
+            </div>
+
+            <div class="contact-wrap">
+                <div class="contact-info reveal-left">
+                    <h3>Let's build something <em class="grad-text">remarkable</em> together</h3>
+                    <p>I'm actively looking for new opportunities in database engineering, backend development, or full-stack roles. Whether you have a project idea or simply want to connect — I'd love to hear from you.</p>
+
+                    <div class="contact-links">
+                        <a href="mailto:ahsamulhaque.aiub@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="cl-label">Email</span>
+                                <span class="cl-val">ahsamulhaque.aiub@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="tel:+8801629679991" class="contact-link">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span class="cl-label">Phone</span>
+                                <span class="cl-val">+880 1629 679991</span>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/md-ahsamul-haque" target="_blank" rel="noopener" class="contact-link">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <span class="cl-label">LinkedIn</span>
+                                <span class="cl-val">md-ahsamul-haque</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/ahsam991" target="_blank" rel="noopener" class="contact-link">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <span class="cl-label">GitHub</span>
+                                <span class="cl-val">ahsam991</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrap reveal-right">
+                    <form class="contact-form" id="contactForm" onsubmit="submitForm(event)">
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" id="fname" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" id="femail" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Subject</label>
+                            <input type="text" id="fsubject" placeholder="Job Opportunity / Collaboration">
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea id="fmessage" placeholder="Hi Ahsamul, I'd like to discuss..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-gold" style="width:100%;justify-content:center">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        <div class="form-success" id="formSuccess">
+                            <i class="fas fa-check-circle"></i> Message sent successfully — I'll be in touch soon!
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ FOOTER ═══════════════ -->
+    <footer>
+        <div class="container footer-inner">
+            <p>Crafted with <em class="gold">♥</em> &amp; precision by <em class="gold">Md Ahsamul Haque</em></p>
+            <p class="footer-copy">&copy; 2026 · All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
